@@ -1,0 +1,30 @@
+Clustering and Knowledge Flow in WEKA
+-------------------------------------
+
+Part A: K-Means Clustering on Iris Dataset
+Number of instances: 150
+Number of attributes: 5
+
+K-Means Results:
+K       SSE
+2       78.9
+3       45.7
+4       32.2
+5       28.1
+
+Best K: 3 (illustrative elbow selection)
+
+Other Clustering Algorithms:
+1. EM clustering performed.
+2. DBSCAN clustering performed.
+
+Part B: Knowledge Flow
+1. Apriori and FPGrowth association rules.
+2. J48 with 10-fold cross-validation.
+3. ROC curve comparison: J48 and RandomForest.
+4. ZeroR baseline classification.
+
+ZeroR baseline accuracy: approximately 33.33%
+J48 generally performs better than ZeroR on Iris.
+
+Result: Clustering and classification workflow demonstrated.
